@@ -19,6 +19,7 @@ public class MemberController {
     @Autowired
     public void setMemberService(MemberService memberService){
         this.memberService = memberService;
+        System.out.println("memberServicec = " + memberService.getClass());
     }
 
 /*
